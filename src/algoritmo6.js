@@ -12,3 +12,13 @@ itens.map( elemento => {
     let li = ul.appendChild(criarElemenentoLi());
     li.innerHTML = `${elemento}`;
 });
+
+
+// outra alternativa
+
+/*
+
+let lista = ul.appendChild(criarElemenentoLi());
+lista.innerHTML = `<li>${itens[0]}</li> <li>${itens[1]}</li> <li>${itens[2]}</li>`;
+
+*/
