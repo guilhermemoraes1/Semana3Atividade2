@@ -9,5 +9,4 @@ const ul = document.getElementById("elemntoUl");
 itens.map( elemento => {
     let li = ul.appendChild(criarElemenentoLi());
     li.innerHTML = `${elemento}`;
-    console.log(li);
 });
